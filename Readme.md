@@ -80,16 +80,14 @@ The table below shows the platform features used in the application and where ab
 | [@react-native-community/netinfo](https://www.npmjs.com/package/@react-native-community/netinfo)       | Getting information about inetrnet staus                                                |
 | [Node.js](https://nodejs.org/en/)                                                                      | Api development in node.js. [Github](https://github.com/rkpassin132/book-reader-api)    |
 
-### App features
+### App features [(more image)](images/)
 
-| Screenshots                                                                       | Features                                                                     |
-| :-------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
-| [<img alt="Splash" align="left" width="300" src="images/1.jpg" />](images/1.jpg)  | Splash screen check internet connection and user login credentials           |
-| [<img alt="Welcome" align="left" width="300" src="images/3.jpg" />](images/3.jpg) | If user not login This screen will appear after splash screen                |
-| [<img alt="Login" align="left" width="300" src="images/2.jpg" />](images/2.jpg)   | Login with facebook and goolge                                               |
-| [<img alt="Player" align="left" width="300" src="images/4.jpg" />](images/4.jpg)  | Book chapter audio player (pause, play, next, previous, loop, volume, speed) |
-| [<img alt="Profile" align="left" width="300" src="images/5.jpg" />](images/5.jpg) | You can update your name and phone number                                    |
-| [<img alt="Menu" align="left"  width="300" src="images/6.jpg" />](images/6.jpg)   | Show's your photo and email id and other navigation views                    |
+| Features                                                                         | Features                                                                          | Features                                                                         |
+| :------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Splash screen check internet connection and user login credentials               | If user not login This screen will appear after splash screen                     | Login with facebook and goolge                                                   |
+| [<img alt="Splash" align="left" width="250" src="images/1.jpg" />](images/1.jpg) | [<img alt="Welcome" align="left" width="250" src="images/3.jpg" />](images/3.jpg) | [<img alt="Login" align="left" width="250" src="images/2.jpg" />](images/2.jpg)  |
+| Show's your photo and email id and other navigation views                        | You can update your name and phone number                                         | Book chapter audio player (pause, play, next, previous, loop, volume, speed)     |
+| [<img alt="Menu" align="left"  width="250" src="images/6.jpg" />](images/6.jpg)  | [<img alt="Profile" align="left" width="250" src="images/5.jpg" />](images/5.jpg) | [<img alt="Player" align="left" width="250" src="images/4.jpg" />](images/4.jpg) |
 
 ## How to use book reader
 
@@ -99,7 +97,7 @@ This is require for development and testing
 
 - Instal node.js, React, and react native cli in your system.
 - Make sure you have Android SDk tool kit installed or Android studio installed in your system.
-- On you developer option and USB debugging in you android system from setting.<br/>
+- On your developer option and USB debugging in your android system from setting.<br/>
   Now :-
 - Start your api `npm start `
 - open this url in browser for loacal host port forwarding using usb `chrome://inspect/#devices`
