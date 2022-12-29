@@ -1,4 +1,4 @@
-# Book Reader 
+# Book Reader
 
 ## Contents
 
@@ -82,14 +82,14 @@ The table below shows the platform features used in the application and where ab
 
 ### App features
 
-| Screenshots                                                             | Features                                                                     |
-| :---------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
-| [<img alt="Splash" align="left" height="200" src="images/1.jpg" />](#)  | Splash screen check internet connection and user login credentials           |
-| [<img alt="Welcome" align="left" height="200" src="images/3.jpg" />](#) | If user not login This screen will appear after splash screen                |
-| [<img alt="Login" align="left" height="200" src="images/2.jpg" />](#)   | Login with facebook and goolge                                               |
-| [<img alt="Player" align="left" height="200" src="images/4.jpg" />](#)  | Book chapter audio player (pause, play, next, previous, loop, volume, speed) |
-| [<img alt="Profile" align="left" height="200" src="images/5.jpg" />](#) | You can update your name and phone number                                    |
-| [<img alt="Menu" align="left"  height="200" src="images/6.jpg" />](#)   | Show's your photo and email id and other navigation views                    |
+| Screenshots                                                                       | Features                                                                     |
+| :-------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
+| [<img alt="Splash" align="left" width="300" src="images/1.jpg" />](images/1.jpg)  | Splash screen check internet connection and user login credentials           |
+| [<img alt="Welcome" align="left" width="300" src="images/3.jpg" />](images/3.jpg) | If user not login This screen will appear after splash screen                |
+| [<img alt="Login" align="left" width="300" src="images/2.jpg" />](images/2.jpg)   | Login with facebook and goolge                                               |
+| [<img alt="Player" align="left" width="300" src="images/4.jpg" />](images/4.jpg)  | Book chapter audio player (pause, play, next, previous, loop, volume, speed) |
+| [<img alt="Profile" align="left" width="300" src="images/5.jpg" />](images/5.jpg) | You can update your name and phone number                                    |
+| [<img alt="Menu" align="left"  width="300" src="images/6.jpg" />](images/6.jpg)   | Show's your photo and email id and other navigation views                    |
 
 ## How to use book reader
 
