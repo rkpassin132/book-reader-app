@@ -1,4 +1,4 @@
-# Book Reader ![Build status](https://github.com/rkpassin132/book-reader-api/tree/main)
+# Book Reader 
 
 ## Contents
 
