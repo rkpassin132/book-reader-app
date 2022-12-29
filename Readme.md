@@ -84,12 +84,12 @@ The table below shows the platform features used in the application and where ab
 
 | Screenshots                                                             | Features                                                                     |
 | :---------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
-| [<img alt="Splash" align="left" height="100" src="images/1.jpg" />](#)  | Splash screen check internet connection and user login credentials           |
-| [<img alt="Welcome" align="left" height="100" src="images/3.jpg" />](#) | If user not login This screen will appear after splash screen                |
-| [<img alt="Login" align="left" height="100" src="images/2.jpg" />](#)   | Login with facebook and goolge                                               |
-| [<img alt="Player" align="left" height="100" src="images/4.jpg" />](#)  | Book chapter audio player (pause, play, next, previous, loop, volume, speed) |
-| [<img alt="Profile" align="left" height="100" src="images/5.jpg" />](#) | You can update your name and phone number                                    |
-| [<img alt="Menu" align="left"  height="100" src="images/6.jpg" />](#)   | Show's your photo and email id and other navigation views                    |
+| [<img alt="Splash" align="left" height="200" src="images/1.jpg" />](#)  | Splash screen check internet connection and user login credentials           |
+| [<img alt="Welcome" align="left" height="200" src="images/3.jpg" />](#) | If user not login This screen will appear after splash screen                |
+| [<img alt="Login" align="left" height="200" src="images/2.jpg" />](#)   | Login with facebook and goolge                                               |
+| [<img alt="Player" align="left" height="200" src="images/4.jpg" />](#)  | Book chapter audio player (pause, play, next, previous, loop, volume, speed) |
+| [<img alt="Profile" align="left" height="200" src="images/5.jpg" />](#) | You can update your name and phone number                                    |
+| [<img alt="Menu" align="left"  height="200" src="images/6.jpg" />](#)   | Show's your photo and email id and other navigation views                    |
 
 ## How to use book reader
 
