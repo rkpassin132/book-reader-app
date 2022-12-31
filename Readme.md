@@ -43,7 +43,7 @@ On Android versions prior to Android 6.0, book reader requires the following per
 - Run at startup.
 - Read and write access to external storage.
 
-The "Run at startup" permission is only used to check newtwork. The network access permissions are made use of for downloading content. The external storage permission is used to cache article images for viewing offline.
+The "Run at startup" permission is only used to check newtwork. The network access permissions are made use of for downloading content.
 
 ## Compatibility:
 
