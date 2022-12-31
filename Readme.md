@@ -80,7 +80,7 @@ The table below shows the platform features used in the application and where ab
 | [@react-native-community/netinfo](https://www.npmjs.com/package/@react-native-community/netinfo)       | Getting information about inetrnet staus                                                |
 | [Node.js](https://nodejs.org/en/)                                                                      | Api development in node.js. [Github](https://github.com/rkpassin132/book-reader-api)    |
 
-### App features [(more image)](images/)
+### App features [(more image)](screenshots/)
 
 | Features                                                                                                      | Features                                                                                                        | Features                                                                                                                                    |
 | :------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
