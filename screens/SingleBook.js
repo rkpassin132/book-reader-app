@@ -40,7 +40,7 @@ export default function SingleBook(props) {
         <View>
           <ImageBackground
             source={imageData(props.route.params.book.images[0].image)}
-            style={{height: 250}}>
+            style={{height: 350}}>
             <View
               style={{
                 alignSelf: 'flex-start',

@@ -9,7 +9,6 @@ import BookCard from './book/BookCard';
 import EmptyData from './EmptyData';
 
 export default function HorizontalScrollSection(props) {
-  
   const navigateMore = () =>{
     let sendData = { title:props.title, bookType:props.bookType };
     if(props.search) sendData = { ...sendData, search:props.search }; 

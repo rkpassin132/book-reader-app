@@ -31,7 +31,7 @@ export default function MoreBook(props) {
       case Constant.book_type.category:
         res = await getSearchBookByCategory(props.route.params.search);
         break;
-      case Constant.book_type.newly:
+      case Constant.book_type.search_by_title:
         res = await getSearchBookByTitle(props.route.params.search);
         break;
       default:
@@ -40,7 +40,7 @@ export default function MoreBook(props) {
     if (res.data.success) {
       setBooksData({
         loading: false,
-        books: [...res.data.books, ...res.data.books],
+        books: [...res.data.books],
       });
     } else {
       setBooksData({...booksData, loading: false});
@@ -52,7 +52,7 @@ export default function MoreBook(props) {
       <Header title={title} navigation={props.navigation} />
       <ScrollView style={{backgroundColor: StyleVariables.bodyBackground}}>
         {booksData.loading && (
-          <ActivityIndicator style={{flex: 1}} color="#0000ff" />
+          <ActivityIndicator style={{flex: 1}} color="blue" />
         )}
         <View
           style={{

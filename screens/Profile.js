@@ -120,7 +120,6 @@ export default function Profile() {
               placeholder="User phone number"
               value={formData.phone}
               onChangeText={value => {
-                console.log(value);
                 setFormData({...formData, phone: value});
               }}
             />

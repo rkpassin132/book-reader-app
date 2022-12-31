@@ -22,6 +22,7 @@ export default function Search(props) {
     books: [],
   });
   const [titleBooks, setTitleBooks] = useState({loading: false, show:false, books: []});
+  const [searchData, setSearchData] = useState({ category:"", title:"" });
 
   useEffect(() => {
     category();
@@ -41,6 +42,7 @@ export default function Search(props) {
 
   const getCategoryBooks = category => {
     setCategoryBooks({...categoryBooks, show:true, loading: true});
+    setSearchData({ ...searchData, category:category });
     getSearchBookByCategory(category._id, Constant.horizontal_book_limit).then(
       res => {
         if (res.data.success) {
@@ -58,6 +60,7 @@ export default function Search(props) {
       return;
     }
     setTitleBooks({...titleBooks, show:true, loading: true });
+    setSearchData({ ...searchData, title:search });
     getSearchBookByTitle(search, Constant.horizontal_book_limit).then(res => {
       if (res.data.success) {
         setTitleBooks({loading: false, show:true, books: res.data.books});
@@ -85,6 +88,7 @@ export default function Search(props) {
           {...props}
           categoryBooksData={categoryBooks}
           titleBooksData={titleBooks}
+          searchData={searchData}
         />
       </ScrollView>
     </>

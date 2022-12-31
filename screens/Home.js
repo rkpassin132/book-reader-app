@@ -38,7 +38,6 @@ export default function Home(props) {
   }, []);
 
   useEffect(() => {
-    console.log("Home page")
     recentBookStorage.getRecentBook().then(book => {
       if (book) {
         setBook(book);
@@ -146,7 +145,7 @@ export default function Home(props) {
             {...props}
             title="Trending"
             data={treadingBooks}
-            bookType={Constant.book_type.category}
+            bookType={Constant.book_type.trending}
           />
         </View>
       )}
