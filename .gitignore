@@ -60,7 +60,7 @@ buck-out/
 *.jsbundle
 
 # Ruby / CocoaPods
-/ios/Pods/
+ios/
 /vendor/bundle/
-/android/app/google-services.json
+android/
 
